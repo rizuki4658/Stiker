@@ -1,0 +1,68 @@
+		@font-face{
+            font-family: "Raleway";
+            src: url('../../../Vendor/Fonts/Raleway-Regular.ttf');
+        }
+        *{
+            font-family: "Raleway";
+        }
+        body{
+            font-family: "Raleway";
+            background-color: rgb(220, 7, 53);
+        }
+            .box{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: 450px;
+                height: 550px;
+                padding: 11px 10px 11px 10px;
+                transform: translate(-50%, -50%);
+                background-color: rgb(255, 255, 255, 1);
+                display: none;
+                border-radius: 5%;
+            }
+            .content{
+                width: 100%;
+                text-align: center;
+            }
+            .content .image{
+                width: 30%;
+            }
+            .input-group{
+                width: 80%;
+                margin: auto;
+            }
+            .input-group-text {
+                background-color: transparent;
+                border-radius: unset;
+                border: unset;
+                border-bottom: 1px solid rgba(159, 159, 159, 1);
+                cursor: pointer;
+            }
+            .input-group-text:hover{
+                color: rgb(9, 44, 126);
+            }
+            .form-control{
+                width: 70%;
+                margin: auto;
+                background-color: transparent;
+                color: #fff;
+                border: unset;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+                border-radius: 0px;
+                padding: 20px 19px 20px 19px;
+            }
+            .form-control:focus{
+                color: rgb(9, 44, 126);
+                background-color: transparent;
+                border: unset;
+                border-bottom: 1px solid rgba(159, 159, 159, 1);
+                border-radius: 0px;
+                box-shadow: unset;
+            }
+            .btn-custom{
+                background-color: rgb(159, 159, 159);
+            }
+            .btn-success:focus{
+                box-shadow: unset !important;
+            }
